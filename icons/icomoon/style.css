@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?mn97kh');
-  src:  url('fonts/icomoon.eot?mn97kh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?mn97kh') format('truetype'),
-    url('fonts/icomoon.woff?mn97kh') format('woff'),
-    url('fonts/icomoon.svg?mn97kh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dmjntq');
+  src:  url('fonts/icomoon.eot?dmjntq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dmjntq') format('truetype'),
+    url('fonts/icomoon.woff?dmjntq') format('woff'),
+    url('fonts/icomoon.svg?dmjntq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,20 +24,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-chevron-down:before {
+.icon-commenting:before {
   content: "\e903";
 }
 .icon-user:before {
-  content: "\e900";
+  content: "\e901";
 }
-.icon-profile:before {
-  content: "\e900";
-}
-.icon-avatar:before {
-  content: "\e900";
-}
-.icon-head:before {
-  content: "\e900";
+.icon-chevron-down:before {
+  content: "\e902";
 }
 .icon-search:before {
   content: "\e986";
@@ -45,13 +39,10 @@
 .icon-menu:before {
   content: "\e9bd";
 }
-.icon-checkmark:before {
-  content: "\ea10";
-}
-.icon-commenting:before {
-  content: "\e902";
+.icon-cross:before {
+  content: "\ea0f";
 }
 .icon-brand:before {
-  content: "\e901";
+  content: "\e900";
   color: #bd081c;
 }

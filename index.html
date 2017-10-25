@@ -5,31 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pinterest</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="icons/icomoon/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js"></script>
     <script src="https://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><span class="icon-brand"></span></li>
-                <li>
-                    <span></span>
-                    <input type="text" placeholder="Javascript">
-                    <p>All Pins</p>
-                    <span></span>
-                    <span></span>
+      <nav>
+            <ul class="menu">
+                <li><a href="#"><i class="icon-brand"></i></a></li>
+                <li class="input-box">
+                    <div class="box-lens">
+                       <i class="icon-search"></i>
+                       <input type="text" placeholder="Javascript">
+                       
+                    </div>
+                    <div class="box-pins">
+                      <i class="icon-cross"></i>
+                      <span>
+                       All Pins
+                       <i class="icon-chevron-down"></i>
+                      </span>
+                    </div>                  
                 </li>
-                <li><span></span></li>
-                <li><span></span></li>
-                <li><span></span></li>
+                <li><a href="#"><i class="icon-user"></i></a></li>
+                <li><a href="#"><i class="icon-menu"></i></a></li>
+                <li><a href="#"><i class="icon-commenting"></i></a></li>
 
             </ul>
         </nav>
+        <hr>
         <ul class="sub-menu">
             <div class="button button1">
                 <p>Cheat Sheet</p>
